@@ -1,0 +1,14 @@
+/*  This software code is provided as open source software. No questions will be
+    answered relating to any part of this software, for any reason.
+
+    Much love,
+    https://github.com/alex-titus
+*/
+
+rmmdir ~/foo -fails due to directory not being empty
+rmdir ~/foo/bar
+rmdir ~/foo
+
+OR
+
+rm -r ~/foo

@@ -1,0 +1,14 @@
+/*  This software code is provided as open source software. No questions will be
+    answered relating to any part of this software, for any reason.
+
+    Much love,
+    https://github.com/alex-titus
+*/
+
+/usr/bin/bash
+
+foo is an empty file
+
+bash_history is ASCII text
+
+local is a directory

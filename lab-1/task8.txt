@@ -1,0 +1,15 @@
+/*  This software code is provided as open source software. No questions will be
+    answered relating to any part of this software, for any reason.
+
+    Much love,
+    https://github.com/alex-titus
+*/
+
+-rw-------, R+W permissions on User group
+Copy over source to existing destination
+ls -l dotbashhistory
+-rw-------
+~/.dotbashhistory
+-rw-------
+
+cp -p ~/.bash_history ~/dotbashhistory

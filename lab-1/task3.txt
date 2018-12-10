@@ -1,0 +1,20 @@
+/*  This software code is provided as open source software. No questions will be
+    answered relating to any part of this software, for any reason.
+
+    Much love,
+    https://github.com/alex-titus
+*/
+
+touch foo
+-rw-r--r--
+I own this file.
+File is associated with User, Group, and Other.
+I am in the group.
+Users / Students group.
+
+chmod 125 foo
+
+rm foo
+
+chmod 777 foo
+rm foo
