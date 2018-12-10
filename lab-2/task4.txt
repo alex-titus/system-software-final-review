@@ -1,0 +1,24 @@
+/*  This software code is provided as open source software. No questions will be
+    answered relating to any part of this software, for any reason.
+
+    Much love,
+    https://github.com/alex-titus
+*/
+
+ls foo
+ls foo > bar
+ls bar
+    bar
+ls foo> /dev/null
+
+touch foo.txt
+echo 3, 5, 2, 1 > foo
+cat foo
+    3, 5, 2, 1
+sort foo
+    3, 5, 2, 1
+sort < foo
+    3, 5, 2, 1
+sort < foo > bar
+cat bar
+    3, 5, 2, 1

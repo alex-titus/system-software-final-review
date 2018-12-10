@@ -1,0 +1,10 @@
+/*  This software code is provided as open source software. No questions will be
+    answered relating to any part of this software, for any reason.
+
+    Much love,
+    https://github.com/alex-titus
+*/
+
+a=PS1
+PS1=[COSC350 basecwd]
+PAS1=$a

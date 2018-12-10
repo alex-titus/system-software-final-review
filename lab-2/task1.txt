@@ -1,0 +1,12 @@
+/*  This software code is provided as open source software. No questions will be
+    answered relating to any part of this software, for any reason.
+
+    Much love,
+    https://github.com/alex-titus
+*/
+
+$ echo $PS1
+\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\$
+
+Completing final review on Windows computer using Cygwin compiler, unable to
+complete task.
