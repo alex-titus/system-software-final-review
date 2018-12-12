@@ -3,7 +3,9 @@
 
     Much love,
     https://github.com/alex-titus
-    gcc -o task5 task5.c | rm child.txt | rm parent.txt
+    gcc -o task5mod task5mod.c | rm childMod.txt | rm parentMod.txt
+
+    parent contains a copy of it, while child only has digits
 */
 
 #include <stdio.h>
@@ -22,8 +24,8 @@ int main(int arc, char **argv)
     int size = lseek(fd1, -1, SEEK_END);
     lseek(fd1, 0, SEEK_CUR);
 
-    int fdP = open("parent.txt", O_CREAT | O_RDONLY, 0666);
-    int fdC = open("child.txt", O_CREAT | O_RDONLY, 0666);
+    int fdP = open("parentMod.txt", O_CREAT | O_RDONLY, 0666);
+    int fdC = open("childMod.txt", O_CREAT | O_RDONLY, 0666);
 
     pid_t pid;
     pid = fork();
@@ -46,10 +48,7 @@ int main(int arc, char **argv)
         {
             lseek(fd1, offset2, SEEK_SET);
             read(fd1, &b, 1);
-            if(isDigit(b) == 0)
-            {
-                write(fdP, &b, 1);
-            }
+            write(fdP, &b, 1);
             offset2++;
         }
     }
